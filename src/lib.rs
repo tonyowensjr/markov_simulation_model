@@ -235,7 +235,7 @@ fn markov_sim(games: i32,year:i16,transition:Vec<Vec<f64>>,batter_trans:HashMap<
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn markov_simulations(_py: Python, m: &PyModule) -> PyResult<()> {
+fn markov_simulation_model(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(markov_sim, m)?)?;
     Ok(())
 }
