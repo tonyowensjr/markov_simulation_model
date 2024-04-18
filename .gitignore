@@ -10,7 +10,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.venv_sim/
+.venv/
 env/
 bin/
 build/
